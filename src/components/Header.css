@@ -1,0 +1,42 @@
+
+/* src/components/Header.css */
+.header {
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    padding: 1.5rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header.scrolled {
+    padding: 1rem 2rem;
+    background-color: rgba(0, 0, 0, 0.95);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .header span {
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .header a {
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }

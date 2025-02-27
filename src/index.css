@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4eafd 100%);
+  background-attachment: fixed;
+  color: #333;
+  overflow-x: hidden;
+}
+
+/* Additional global styles */
+.line {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+  position: relative;
+}
+
+.line h5 {
+  font-size: 1.2rem;
+  color: #6b2d99;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.line h5::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #8e44ad, transparent);
+  transform-origin: center;
+  animation: lineExpand 2s infinite alternate;
+}
+
+@keyframes lineExpand {
+  from { transform: scaleX(0.3); }
+  to { transform: scaleX(1); }
+}
+
+/* src/App.css */
+.app {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.app::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('https://images.unsplash.com/photo-1520034475321-cbe63696469a?q=80&w=1000&auto=format&fit=crop') center/cover no-repeat;
+  opacity: 0.05;
+  z-index: -1;
+}
+
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
