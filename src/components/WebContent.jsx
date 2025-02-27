@@ -8,6 +8,7 @@ const WebContent = () => {
   return (
     <section className="content-section" id="web-content" data-aos="fade-up">
       <h2 className="section-title">Web Content</h2>
+      <h5>I've written website content for different brands in different industries. Check them out! </h5>
       <div className="writing-list">
         <motion.div 
           className="writing-card"
@@ -20,7 +21,7 @@ const WebContent = () => {
           <input type="checkbox" className="read-more-checkbox" id="web1" />
           <div className="writing-content">
             <p>
-              Need a landing page that converts? Here's a sample: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. More space means more impact for your web copy, and this goes on to showcase the full potential of your writing.
+               
             </p>
           </div>
           <label htmlFor="web1" className="read-more-label"></label>

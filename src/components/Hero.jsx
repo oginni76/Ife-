@@ -2,9 +2,11 @@ import React, { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import './Hero.css';
 import profileImage from '../../public/image.jpg';
+// import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {
   const canvasRef = useRef(null);
+//   const navigate = useNavigate();
   
   // Animated particles effect
   useEffect(() => {
@@ -119,9 +121,12 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 1.2, duration: 0.8 }}
           >
-            Transforming ideas into captivating digital experiences. 
+            Hey there,
+            You have just earned your eyes a moment of wonders by showing interest in checking out my works. This is where you find interesting pieces of words strung together by me, to make great content.
+            Excited for what's below? Take a scroll and be wowed.
+            {/* Transforming ideas into captivating digital experiences. 
             Explore my portfolio of creative work and discover how together
-            we can bring your vision to life.
+            we can bring your vision to life. */}
           </motion.p>
           
           <div className="hero-actions">
@@ -133,18 +138,19 @@ const Hero = () => {
               whileHover={{ scale: 1.05, boxShadow: '0 8px 20px rgba(155, 89, 182, 0.4)' }}
               whileTap={{ scale: 0.98 }}
             >
-              View Portfolio
+            <a href="/" target='_blank'>View Portfolio</a>
             </motion.button>
             
             <motion.button 
               className="hero-btn secondary-btn"
+              href="mailto:kunyeifeoluwa@gmail.com"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 1.7, duration: 0.5 }}
+              transition={{ delay: 1, duration: 0.5 }}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
             >
-              Let's Connect
+                <a href="mailto:kunyeifeoluwa@gmail.com">Let's Connect</a>
             </motion.button>
           </div>
         </div>
@@ -170,7 +176,7 @@ const Hero = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 1.5, type: 'spring', stiffness: 200 }}
           >
-            <span className="exp-number">5+</span>
+            <span className="exp-number">2+</span>
             <span className="exp-text">Years Experience</span>
           </motion.div>
           
@@ -181,7 +187,7 @@ const Hero = () => {
             transition={{ delay: 1.8, type: 'spring', stiffness: 200 }}
           >
             <span className="skill-icon">✨</span>
-            <span className="skill-text">Creative Designer</span>
+            <span className="skill-text">Creative Writer</span>
           </motion.div>
         </motion.div>
       </div>
@@ -196,7 +202,7 @@ const Hero = () => {
             <path d="M7 10L12 15L17 10" stroke="#9b59b6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </motion.div>
-        <span>Scroll to explore</span>
+        {/* <span>Scroll to explore</span> */}
       </div>
     </section>
   );

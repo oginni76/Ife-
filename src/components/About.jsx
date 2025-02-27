@@ -30,12 +30,12 @@ const About = () => {
   const aboutTitle = "About Me";
   const titleLetters = Array.from(aboutTitle);
   
-  // Skill data
+ 
   const skills = [
-    { name: "Creative Writing", level: 95 },
-    { name: "Legal Research", level: 85 },
-    { name: "Content Creation", level: 90 },
-    { name: "Storytelling", level: 92 }
+    { name: "Content Writing", level: 95 },
+    { name: "Copy Writing", level: 92 },
+    { name: "Proofreading & Editing", level: 90 },
+    { name: "Brand message & Tone", level: 85 }
   ];
 
   // Background pattern generation function
@@ -103,13 +103,13 @@ const About = () => {
                 }
               }}
             >
-              <p className="about-intro"><span className="about-highlight">Hi, I'm Ife.</span></p>
+              <p className="about-intro"><span className="about-highlight">Hi, I'm Kunye Ifeoluwa Ayomide</span></p>
               <p className="about-description">
-                A recent Law graduate and spontaneous writer based in Lagos, Nigeria. I'm passionate about creative writing and dedicated to creating
-                impactful content that resonates with readers on a deeper level.
+                A recent graduate and spontaneous writer based in Lagos, Nigeria. I'm passionate about creative writing and dedicated to creating
+                impactful writeups that resonates with readers on a deeper level.
               </p>
               <p className="about-philosophy">
-                Through my work, I aim to deliver messages that inspire and create lasting impressions. 
+                Through my work, I aim to deliver messages that inspire and create lasting impressions. <br /> 
                 Join me on this journey as I share insights and create meaningful pieces that speak to the human experience.
               </p>
             </motion.div>
@@ -162,10 +162,11 @@ const About = () => {
             <p>Looking for captivating content that tells your story?</p>
             <motion.button 
               className="cta-button"
+              href="mailto:kunyeifeoluwa@gmail.com"
               whileHover={{ scale: 1.05, boxShadow: '0 8px 20px rgba(155, 89, 182, 0.4)' }}
               whileTap={{ scale: 0.98 }}
             >
-              Let's Work Together
+              <a href="mailto:kunyeifeoluwa@gmail.com">Let's Work Together</a>
             </motion.button>
           </motion.div>
         </div>

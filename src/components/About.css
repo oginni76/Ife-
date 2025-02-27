@@ -184,6 +184,11 @@
     right: -75px;
     opacity: 0.1;
   }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
   
   .about-cta p {
     font-size: 1.2rem;

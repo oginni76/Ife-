@@ -54,7 +54,7 @@
   }
   
   .hero-title {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 1.2;
     color: #2c3e50;
@@ -88,6 +88,13 @@
     gap: 20px;
     margin-bottom: 40px;
   }
+
+  .hero-actions a {
+    text-decoration: none;
+    color: white;
+  }
+
+
   
   .hero-btn {
     padding: 14px 28px;
@@ -111,6 +118,10 @@
     color: #8e44ad;
     border: 2px solid #9b59b6;
   }
+
+  .secondary-btn a {
+    color: #8e44ad;
+}
   
   /* Right content */
   .hero-right-container {

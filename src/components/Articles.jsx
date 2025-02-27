@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import './ContentSection.css';
 
-// Sample article data - replace with your actual articles
+
 const articleData = [
   {
     id: 'article1',
@@ -35,7 +35,133 @@ const articleData = [
       </p>
     `
   },
-  // Add more articles as needed
+  {
+    id: 'article2',
+    title: 'Are You Numbling to Startup Failure?: The Unseen Pitfalls Of "Visionless" Businesses in Nigeria',
+    content: `
+    <p>
+        
+
+
+“Aje o! Aje a wa!” <br />
+This is a common saying amongst people of the Yoruba tribe that non-literally translates to “May you sell” or “May the gods of trade and prosperous sales show luck and kindness to you”. <br /><br />
+The Nigerian business landscape is a fascinating paradox. More often than not, many business owners mistake mundane loyalty for long-term success; they operate on shaky ground, fueled by assumptions about attracting customers and basking in short-lived fame from trendy business practices. They mistake fleeting loyalty for long-term success, and mistake prayers for sound strategy. <br /><br /> 
+ On any given weekend, you'll see throngs of hopeful entrepreneurs fervently praying for a miraculous business breakthrough at religious gatherings. In due course, they start to ask rhetorical questions like: <i> “Oh, why has God forsaken me?” “am I not praying enough?” “Or is God testing beyond my endurance?”</i>. <br /><br /> While faith undoubtedly plays a role, the <b>calculated and predictable approach</b> reigns supreme in achieving sustainable growth and fulfilment. <br /><br /><br />
+
+
+<b> What truly defines a successful business?</b> <br /><br /> 
+One of the most profound definitions describes it as “an establishment with the capacity to repeatedly and predictably service a growing demand for unique products and services”. Emphatically, the words <b>“predictability”</b> and <b>“repeatability”</b> outline the crucial role of <b>vision and strategy</b> in navigating the fierce competition of the Business terrain. <br />
+The Nigerian business landscape is a brutal battleground. While only a few brands rise to become industry titans, the vast majority are locked in a desperate struggle for survival. This relentless fight for scraps leaves little room for innovation, vision, or building something truly remarkable. <br /><br />
+
+<b>The Problem: Hunger, Not Vision, Drives Most Startups</b> <br /> <br />
+Let's be honest. For many Nigerians, entrepreneurship isn't a passionate pursuit, it's a desperate scramble for survival. Empty stomachs don't breed brilliant ideas; they breed short-term thinking and a laser focus on making any money possible, <b>fast</b>. This approach might keep the lights on today, but unfortunately, it's a recipe for disaster tomorrow. <br /><br />
+According to statistics, we have approximately 40 million SMEs and 39 million MSMEs in Nigeria. A survey was conducted asking 500 entrepreneurs why they decided to start their business and the vision they had in mind kicking off with the business. 70% of them said they started the business to be their own boss, 20% said they were out of job, while the rest 10% related it to skill and passion. <br />
+This survey underscores the diverse “motivations” behind entrepreneurship in Nigeria, ranging from economic necessity to personal fulfilment and independence. <br /> <br />
+
+<b>The Vicious Cycle of Visionless Businesses</b>
+Let’s see the trajectory of a business lacking a clear vision in practical terms: <br />
+Short-Termism: Blinded by the need for immediate cash, visionless businesses neglect long-term strategy. They sacrifice customer loyalty and brand differentiation for a quick buck. <br /><br />
+
+<b>Lack of Purpose:</b> No clear "why" means no clear direction. Without a guiding purpose, businesses are rudderless ships, tossed around by market forces with no control over their destiny. <br /><br />
+
+<b>Customer Disconnect:</b> When a brand has no vision or purpose, it's impossible to connect with customers on an emotional level. This leads to low engagement, high churn, and ultimately, failure to stand out in a crowded marketplace. <br /><br />
+
+<b>What are the consequences?</b><br />
+These visionless businesses are like cancer cells in the Nigerian economy. They stifle innovation, drag down industry standards, and create a race to the bottom. This "survival of the fittest" mentality ultimately hurts everyone.<br /><br />
+
+<b>The Wake-Up Call: Rethinking the "Go-It-Alone" Myth </b> <br />
+The traditional "bootstrap yourself to success" narrative falls flat in the harsh realities of the Nigerian market. For many, the path to success lies not in blind solopreneurship, but in collaboration.
+<br /><br />
+<b>The Ultimate Options For Escape Are:</b>
+<b>Government Intervention:</b> The government needs to step up and create a more supportive ecosystem for startups. This includes access to funding, mentorship programs, and infrastructure development.
+
+<br /><br />
+<b>Strategic Partnerships:</b> Entrepreneurs need to embrace the power of collaboration. Partnering with established businesses or successful individuals within your chosen industry can provide invaluable guidance, mentorship, and access to resources. This collaborative approach can be the difference between surviving and thriving.
+<br /><br />
+
+<b>The Choice is Yours: Vision or Oblivion</b> <br />
+
+The Nigerian business landscape is a land of stark contrasts. It can be a land of incredible opportunity and innovation, or it can be a graveyard of failed dreams and wasted potential. The choice is yours. Whether you succumb to the allure of short-term gains and become another statistic, or you choose to build a brand with a clear vision and a purpose that extends beyond mere survival.
+The time for blind ambition is over. <i>The time for strategic vision is now.</i>
+Don't let your business become another casualty in the Nigerian Startup Hunger Games. Moreso, it's natural to have doubts, especially as a beginner. Questions spark understanding and clarity fuels growth. With <b>WILDFIRE BUSINESS SOLUTIONS LTD</b> by your side, you can transform into a powerhouse in your industry. 
+Ready to ignite your success? Connect with us today and let's fuel your journey together!
+
+    </p>
+    `
+
+  },
+  {
+    id: 'article3',
+    title: 'The Effects Of Parental Negligence On Children',
+    content: `
+    <p>
+Neglect, most times, is the silent antagonist in a person’s story. It is not always loud or obvious; it hides in unmet needs, forgotten promises, or the absence of care where it is most needed. However, the effects of negligence are far from silent. What happens when the hands that are meant to nurture and protect us fail to do so? This article answers the question and also provides solutions to negligence.
+What Is Negligence?
+Negligence is simply the inability to provide adequate care, attention, or support when it is required. However, this article focuses on the negligence of parents on their children. Hence, the failure to meet their basic physical, emotional, educational, or medical needs is Neglect.
+
+Although negligence is not always intentional, it is undeniable that it has profound consequences on children. In some cases, parents may not even realize this. The following are signs that tell you that you’re negligent:
+9 Signs Of Parental Negligence
+If you possess any of these, it shows that you are negligent:
+Always unavailable:
+Constantly being absent (physically or emotionally) whether due to work, distractions, or personal issues can leave children feeling neglected and unsupported.
+
+Yelling at the children all the time:
+If you frequently resort to yelling instead of calmly addressing situations, it can create an environment of fear and anxiety for the children.
+
+Quick to raising your hands against them at the slightest chance:
+Using physical punishment or resorting to violence in response to minor mistakes neglects a child’s need for positive guidance.
+
+Always believing you are right and they are always wrong:
+Dismissing your child's opinions or feelings without giving them a chance to express themselves creates a power imbalance and neglects their emotional needs.
+
+Quick to judge and barely listen to them:
+Constantly criticizing without understanding the child’s perspective can cause feelings of worthlessness, as children love to be heard and validated.
+
+Never holds parent-child conversations with them.
+Avoiding meaningful, open conversations with your child or failing to engage in discussions that help them process their thoughts and emotions can lead to isolation and confusion.
+
+Always angry with them:
+Exhibiting constant frustration or anger towards a child can undermine their sense of security and make them feel unloved or unwanted.
+Lack of Affection or Emotional Support: 
+Not offering physical affection like hugs, pecks, smiles, praises or emotional support when a child needs it can lead to a lack of self-worth and emotional insecurity.
+Neglecting Basic Needs: 
+Failing to ensure that a child’s basic needs are met, is a clear sign of neglect. These basic needs are tagged “The Bare Minimum”. They include food, clothing, shelter, and healthcare. 
+
+Having recognized when you are failing to meet your children’s needs, it is necessary to understand that children may also display certain signs that indicate they are being neglected. While these signs vary depending on the child’s age, personality, and the type of neglect they are experiencing, some might be subtle, and others more obvious and troubling.
+
+7 Signs That Shows A Child Is Neglected
+Pay close attention to these behaviours in your children. If they exhibit any of these signs, it could mean they feel neglected:
+
+Displaying fear or anxiety at your presence.
+Appearing distant or emotionally closed off.
+Preferring to confide in friends rather than you.
+Rarely smiling or showing joy in your company.
+Frequently seeking reasons to leave home and hesitating to return.
+Avoiding eye contact or rejecting physical affection.
+Exhibiting low self-esteem or a lack of self-confidence.
+
+In conclusion, if you find yourself in these shoes, there are ways to make things right; it’s not rocket science. 
+
+7 Ways To Correct Negligence 
+Here are some practical steps you can take to correct the situation:
+Communicate Openly:
+Create a safe space where your child feels comfortable expressing their thoughts and feelings. Listen without judgment.
+Spend Quality Time Together: 
+Dedicate uninterrupted time to bond with your child through activities they enjoy or simple conversations.
+Show Affection: 
+Offer physical affection, such as hugs, or verbal affirmations that make your child feel loved and valued.
+Be Patient and Understanding: 
+Instead of reacting harshly, try to understand their perspective and respond with empathy.
+Meet Their Basic Needs: 
+Ensure your child has proper nutrition, clothing, education, and a safe environment to grow.
+Apologize and Rebuild Trust: 
+If your actions have hurt your child, acknowledge it and learn to apologize sincerely. This shows consistent effort to rebuild their trust.
+Seek Support: 
+If needed, consult a family counsellor or parenting expert to guide you in strengthening your relationship with your child.
+
+</p>
+    `
+  }
 ];
 
 const Articles = () => {
@@ -116,8 +242,8 @@ const Articles = () => {
               <h3 className="article-title">{article.title}</h3>
               
               <div className="article-meta">
-                <span className="article-date">Published by Wildfire • February 2025</span>
-                <span className="article-category">Business Strategy</span>
+                <span className="article-date">Written by Ifeoluwa</span>
+                <span className="article-category">Writeups</span>
               </div>
               
               <input 
@@ -149,7 +275,7 @@ const Articles = () => {
                   className="share-container"
                   whileHover={{ scale: 1.05 }}
                 >
-                  <button className="share-button">
+                  {/* <button className="share-button">
                     <span className="share-icon">⟱</span>
                     <span className="share-text">Share</span>
                   </button>
@@ -157,7 +283,7 @@ const Articles = () => {
                     <a href="#" className="share-option">LinkedIn</a>
                     <a href="#" className="share-option">Twitter</a>
                     <a href="#" className="share-option">Copy Link</a>
-                  </div>
+                  </div> */}
                 </motion.div>
               </div>
             </motion.div>
