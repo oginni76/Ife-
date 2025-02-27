@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import CopywritingPortfolio from './components/CopyWritingPortfolio';
 
 function App() {
   useEffect(() => {
@@ -49,6 +50,7 @@ function App() {
           </Routes>
         </AnimatePresence>
       </div>
+      <CopywritingPortfolio/>
       <Footer />
     </Router>
   );
