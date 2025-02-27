@@ -8,7 +8,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Articles from './components/Articles';
 import WebContent from './components/WebContent';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 import './App.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -49,6 +49,7 @@ function App() {
           </Routes>
         </AnimatePresence>
       </div>
+      <Footer />
     </Router>
   );
 }
